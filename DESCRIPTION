@@ -1,0 +1,24 @@
+Package: dctspline
+Type: Package
+Title: Robust smoothing spline of gridded data in one and higher dimensions with missing and weighted values
+Version: 0.1.0
+Authors@R: 
+    person(given = "Weihao",
+           family = "Li",
+           role = c("aut", "cre", "cph"),
+           email = "llreczx@gmail.com",
+           comment = c(ORCID = "0000-0003-4959-106X"))
+Maintainer: Weihao Li <llreczx@gmail.com>
+Description: An implementation of Garcia, D. (2010) Robust Smoothing of Gridded Data in One and Higher Dimensions with Missing Values <doi:10.1016/j.csda.2009.09.020>.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 4.1.0)
+Imports: 
+    dplyr,
+    gsignal,
+    tibble,
+    tidyr
+RoxygenNote: 7.2.1
+Roxygen: list(markdown = TRUE)
